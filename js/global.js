@@ -16,3 +16,16 @@ toggle.addEventListener('click',function(){
     divHideme.style.display = "none";
   }
 });
+var myDivWidth=document.querySelector('.resize').offsetWidth;
+var myDivheigth=document.querySelector('.resize').offsetHeight;
+function autoResize(){
+  var myRange=document.querySelector('#myRange').value;
+  var myDiv=document.querySelector('.resize');
+  var newWidth=myDivWidth * myRange;
+  var newHeight= myDivheigth * myRange;
+  myDiv.style.width= newWidth+"px";
+  myDiv.style.height= newHeight+"px";
+  
+  
+}
+

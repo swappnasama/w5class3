@@ -27,3 +27,17 @@ main{
   background-color:yellowgreen;
   border:0;
 }
+.resize{
+  width:100px;
+  height:100px;
+  background-color:crimson;
+  font-size: 20px;
+  color: white;
+  margin: 20px 0;
+  padding: 2rem;
+  max-width: 1000px;
+  max-height: 500px;
+}
+.auto-resizing-div{
+  padding: 2rem;
+}
