@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+main{
+  width: 80vw;
+  margin: 0 auto;
+}
+.toggle{
+  background-color: aqua;
+  padding: 1rem;
+  font-weight: bold;
+  width: 50px;
+  height: 20px;
+  margin:20px 0;
+}
+.hideme{
+  width:300px;
+  height: 300px;
+  background-color: tomato;
+  padding: 2rem;;
+}
+#submit-btn{
+  width:80px;
+  height: 50px;
+  border-radius: 5px;
+  background-color:yellowgreen;
+  border:0;
+}
